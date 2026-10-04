@@ -1,0 +1,68 @@
+﻿位号,数量,名称,值,封装,厂商,料号,不贴,说明
+J1,1,USB-C 座（仅供电）,USB-C 座（仅供电）,OAC:USB_C_Power_6P,GCT,USB4125-GF-A,,
+R1 R2,2,电阻,5.1k,Resistor_SMD:R_0402_1005Metric,,,,
+D1 D2,2,TVS,5V TVS,Diode_SMD:D_SOD-323,,,,5 V 单向 TVS
+D3 D4 D7,3,肖特基二极管,3A 肖特基,Diode_SMD:D_SMA,,,,≥ 3 A / 30 V，低 Vf
+U1,1,BQ25895,BQ25895,Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,TI,BQ25895RTWR,,1S 充电 + 电源路径，I2C
+C1,1,电容,1u 25V,Capacitor_SMD:C_0603_1608Metric,,,,
+C2,1,电容,10u 25V,Capacitor_SMD:C_0805_2012Metric,,,,
+C3,1,电容,47n,Capacitor_SMD:C_0402_1005Metric,,,,
+C4,1,电容,4.7u,Capacitor_SMD:C_0603_1608Metric,,,,
+L1,1,功率电感,2.2uH,OAC:L_4x4mm,,,,2.2 µH，Isat ≥ 4 A，DCR ≤ 40 mΩ
+C5 C6 C7,3,电容,10u,Capacitor_SMD:C_0805_2012Metric,,,,
+R3,1,电阻,200R 1%,Resistor_SMD:R_0402_1005Metric,,,,
+R4 R5 R14 R23 R24 R35,6,电阻,10k,Resistor_SMD:R_0402_1005Metric,,,,
+R6 R34,2,电阻,2.2k,Resistor_SMD:R_0402_1005Metric,,,,
+D5,1,LED,充电状态,LED_SMD:LED_0603_1608Metric,,,,
+SW1,1,轻触开关,QON（出船运模式 / 复位）,OAC:SW_Tact_SMD,,,,
+R7,1,电阻,5.23k 1%,Resistor_SMD:R_0402_1005Metric,,,,
+R8,1,电阻,30.1k 1%,Resistor_SMD:R_0402_1005Metric,,,,
+R9,1,电阻,0R,Resistor_SMD:R_0402_1005Metric,,,,
+JP1,1,焊接跳线,无 NTC 电池时短接,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,,,
+R10,1,电阻,10k 1%,Resistor_SMD:R_0402_1005Metric,,,,
+J2,1,电池触点（4 位）,电池触点（4 位）,OAC:Battery_Contact_4P,,,,
+R11 R25,2,电阻,20m 1%,Resistor_SMD:R_0805_2012Metric,,,,
+R12 R30 R37,3,电阻,1k,Resistor_SMD:R_0402_1005Metric,,,,
+R13,1,电阻,100k 1%,Resistor_SMD:R_0402_1005Metric,,,,
+D6 D9 D10 D11 D12 D13 D14 D15,8,ESD 二极管,ESD,Diode_SMD:D_0402_1005Metric,,,,低电容双向 ESD
+U2,1,MAX17048,MAX17048,OAC:TDFN-8-1EP_2x2mm_P0.5mm,Analog Devices,MAX17048G+T10,,电压型电量计，免检流电阻，免学习
+C8 C13 C14 C15 C16 C17,6,电容,100n,Capacitor_SMD:C_0402_1005Metric,,,,
+R15 R16,2,电阻,4.7k,Resistor_SMD:R_0402_1005Metric,,,,
+U3,1,TPS7A02 3.0V,TPS7A02 3.0V,Package_TO_SOT_SMD:SOT-23-5,TI,TPS7A0230DBVR,,超低静态电流 LDO，3.0 V / 200 mA
+C9 C10 C11,3,电容,1u,Capacitor_SMD:C_0402_1005Metric,,,,
+JP2,1,跳线,常开域电流测量（串 PPK2）,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,,,
+JP3,1,跳线,接入超级电容,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,,,
+R17,1,电阻,2.2R,Resistor_SMD:R_0805_2012Metric,,,,
+C12,1,超级电容,0.47F 5.5V,OAC:Supercap_21x14mm,Murata,DMF3Z5R5H474M3DTA0,,0.47 F / 5.5 V，低 ESR（< 0.1 Ω）
+U4,1,TLV3011,TLV3011,Package_TO_SOT_SMD:SOT-23-6,TI,TLV3011AIDBVR,,带 1.242 V 基准的微功耗比较器，开漏输出
+R18,1,电阻,1M 1%,Resistor_SMD:R_0402_1005Metric,,,,
+R19,1,电阻,619k 1%,Resistor_SMD:R_0402_1005Metric,,,,
+R20,1,电阻,10M,Resistor_SMD:R_0402_1005Metric,,,,
+R21 R27 R29 R31 R36,5,电阻,100k,Resistor_SMD:R_0402_1005Metric,,,,
+J3,1,JST-PH 2 位,仓门微动开关,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,,,,
+R22,1,电阻,1M,Resistor_SMD:R_0402_1005Metric,,,,
+Q1 Q2 Q3,3,N-MOSFET,BSS138,Package_TO_SOT_SMD:SOT-23,,,,逻辑电平，Vgs(th) < 1.5 V（如 BSS138 类）
+J4,1,2 位接线端子,VSYS 输出到开发板,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,,,,
+U5,1,LIS2DW12,LIS2DW12,OAC:LGA-12_2x2mm_P0.5mm,ST,LIS2DW12TR,,低功耗 3 轴加速度计，I2C
+MK1,1,T5838,T5838,OAC:MIC_T5838,TDK InvenSense,MMICT5838-00-012,,带声学活动检测的 PDM 麦克风
+R26 R28 R32 R33,4,电阻,100R,Resistor_SMD:R_0402_1005Metric,,,,
+M1,1,ERM 振动马达焊盘,ERM 振动马达焊盘,OAC:Pads_2x1.5mm,,,,
+D8,1,开关二极管,续流,Diode_SMD:D_SOD-323,,,,
+U6,1,ICM-42688-P,ICM-42688-P,OAC:LGA-14_2.5x3mm_P0.5mm,TDK InvenSense,ICM-42688-P,,6 轴 IMU，SPI，FSYNC
+C18,1,电容,2.2u,Capacitor_SMD:C_0402_1005Metric,,,,
+C19,1,电容,10n,Capacitor_SMD:C_0402_1005Metric,,,,
+J5,1,OAC Link 10 针触点,OAC Link 10 针触点,OAC:OAC_Link_10P,,,,
+Q4,1,NPN,MMBT3904,Package_TO_SOT_SMD:SOT-23,,,,
+D16,1,LED,录制指示（红）,LED_SMD:LED_0603_1608Metric,,,,
+J6,1,MCU 排针（接 nRF54L15 开发板）,MCU 排针（接 nRF54L15 开发板）,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,,,,
+J7,1,SoC 排针（接 RV1126B 开发板）,SoC 排针（接 RV1126B 开发板）,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,,,,
+TP1,1,测试点,VBUS_IN,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP2,1,测试点,VBAT_CONN,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP3,1,测试点,VBAT,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP4,1,测试点,VSYS,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP5,1,测试点,VSYS_OUT,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP6,1,测试点,VSYS_HOLD,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP7,1,测试点,AON_3V0,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP8,1,测试点,PFAIL_N,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP9,1,测试点,IMU_FSYNC,TestPoint:TestPoint_Pad_D1.0mm,,,,
+TP10 TP11,2,测试点,GND,TestPoint:TestPoint_Pad_D1.0mm,,,,

@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+*.pyc
+
+# 内部计划与阶段性方案文档，不进仓库
+docs/internal/
+/*.docx
+/ChatGPT Image*.png

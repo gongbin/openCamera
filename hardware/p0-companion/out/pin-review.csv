@@ -1,0 +1,27 @@
+﻿器件,料号,位号,引脚编号已对照数据手册,封装,备注
+USB-C 座（仅供电）,USB4125-GF-A,J1,否,OAC:USB_C_Power_6P,料号待核实
+TVS,,D1 D2,否,Diode_SMD:D_SOD-323,
+肖特基二极管,,D3 D4 D7,否,Diode_SMD:D_SMA,
+BQ25895,BQ25895RTWR,U1,否,Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,
+功率电感,,L1,否,OAC:L_4x4mm,
+LED,,D5 D16,否,LED_SMD:LED_0603_1608Metric,
+轻触开关,,SW1,否,OAC:SW_Tact_SMD,
+焊接跳线,,JP1,否,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,
+电池触点（4 位）,,J2,否,OAC:Battery_Contact_4P,触点顺序和间距等标准电池拆解实测后再定
+ESD 二极管,,D6 D9 D10 D11 D12 D13 D14 D15,否,Diode_SMD:D_0402_1005Metric,
+MAX17048,MAX17048G+T10,U2,否,OAC:TDFN-8-1EP_2x2mm_P0.5mm,
+TPS7A02 3.0V,TPS7A0230DBVR,U3,否,Package_TO_SOT_SMD:SOT-23-5,
+跳线,,JP2 JP3,否,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+TLV3011,TLV3011AIDBVR,U4,否,Package_TO_SOT_SMD:SOT-23-6,
+JST-PH 2 位,,J3,是,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,
+N-MOSFET,,Q1 Q2 Q3,否,Package_TO_SOT_SMD:SOT-23,
+2 位接线端子,,J4,是,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,
+LIS2DW12,LIS2DW12TR,U5,否,OAC:LGA-12_2x2mm_P0.5mm,
+T5838,MMICT5838-00-012,MK1,否,OAC:MIC_T5838,引脚编号是占位值，必须对照数据手册重填；料号待核实
+ERM 振动马达焊盘,,M1,否,OAC:Pads_2x1.5mm,
+开关二极管,,D8,否,Diode_SMD:D_SOD-323,
+ICM-42688-P,ICM-42688-P,U6,否,OAC:LGA-14_2.5x3mm_P0.5mm,RESV 引脚的处理方式（接地 / 悬空）待对照数据手册
+OAC Link 10 针触点,,J5,否,OAC:OAC_Link_10P,焊盘图形待结构设计确定
+NPN,,Q4,否,Package_TO_SOT_SMD:SOT-23,
+MCU 排针（接 nRF54L15 开发板）,,J6,是,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,
+SoC 排针（接 RV1126B 开发板）,,J7,是,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,
